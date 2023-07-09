@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+  <html lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+           <title>Job Application Form</title>
+         <link rel="stylesheet" href="stylejob.css"
+      </head>
+           <body>
+              <div class="container">
+                   <div class="apply_box">
+                        <h1>
+                           Job Application
+                           <span class="title_small">(Web)</span>
+                       </h1>
+                      <form action="">
+                           <div class="form_container">
+                               <div class="form_control"><!--for each input box-->
+                                 <label for="first_name">First Name</lable>
+                                 <input
+                                 id="first_name"
+                                 name="first_name"
+                                 placeholder="Enter First name..."
+                                 required
+                                 />
+                               </div>
+                               <div class="form_control"><!--input box-->
+                                 <label for="last_name"> Last Name</label>
+                                 <input
+                                 id="last_name"
+                                 name="last_name"
+                                 placeholder="Enter Last name..."
+                                 required
+                                 />
+                               </div>
+                               <div class="form_control"><!--input box-->
+                                 <label for="email">Email</label>
+                                 <input
+                                 type="email"
+                                 id="email"
+                                  name="email"
+                                  placeholder="Enter Email..."
+                                 required
+                                 />
+                              </div> 
+                               <div class="form_control">
+                                 <label for="job_role">Job Role</label>
+                                   <select id="job_role" name="job_role" required>
+                                     <option value="">Select Job Role</option>
+                                     <option value="Html developer">Html developer</option>
+                                     <option value="Css developer">Css developer</option>
+                                     <option value="Javascript developer">Javascript developer</option>
+                                     <option value="React developer">React developer</option>
+                                     <option value="Node developer">Node developer</option>
+                                     <option value="Express developer">Express developer</option>
+                                     <option value="MongoDb developer">MongoDb developer</option>
+                                     <option value="Android developer">Android developer</option>
+                                     <option value="fullstack developer">fullstack developer</option>
+                                     <option value="frontend developer">frontend developer</option>
+                                   </select>
+                              </div>
+                              <div class="textarea_control">
+                                 <label for="address">Address</label>
+                                   <textarea
+                                      id="address"
+                                      name="=address"
+                                      row="4"
+                                      cols="50"
+                                      placeholder="Enter Address"
+                                      required>
+                                  </textarea>
+                              </div>
+                               <div class="form_control"><!--input box-->
+                                  <label for="city">City</label>
+                                  <input
+                                  id="city"
+                                  name="city"
+                                  placeholder="Enter City Name..."
+                                  required
+                                  />
+                               </div>
+                               <div class="form_control"><!--input box-->
+                                 <label for="pincode"> Pincode</label>
+                                 <input
+                                 type="number"
+                                 id="pincode"
+                                 name="pincode"
+                                 placeholder="Enter Pincode..."
+                                  required
+                                 />
+                               </div>  
+                               <div class="form_control"><!--input box-->
+                                  <label for="date">D.O.B</label>
+                                  <input value="1999-05-24"
+                                   type="date" 
+                                   id="date"
+                                   name="date" 
+                                   />
+                               </div>
+                               <div class="form_control"><!--input box-->
+                                 <label for="upload">Upload Your CV</label>
+                                 <input
+                                 type="file"
+                                 id="upload"
+                                 name="upload"
+                                 required/>
+                              </div>
+                          </div>
+                          <div class="button_container">
+                             <button type="submit">Apply Now</button>
+                          </div>
+                       </form>
+                  </div>
+               </div>
+         </body>
+</html> 
